@@ -1,0 +1,10 @@
+these are the methods for adding script to the html file.
+
+1. Inline script (not recomended)
+  <body onload="alert('hello!! welcome to java script');">
+
+2. we can add javascript through script tag also 
+  <script> alert("hello"); </script>
+
+3. We can add javascript through external file.
+  <script src="./script.js" charset="UTF-8"></script>
