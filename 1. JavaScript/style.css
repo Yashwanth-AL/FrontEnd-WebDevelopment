@@ -1,0 +1,36 @@
+.custom-button {
+  outline: none;
+  color: white;
+  background-color: #ef4444; /* bg-red-500 */
+  font-weight: 600; /* font-medium */
+  border-radius: 0.5rem; /* rounded-lg */
+  font-size: 2.5rem; /* text-xl */
+  padding: 1.25rem 1.25rem; /* px-5 py-2.5 */
+  margin-inline-end: 0.5rem; /* me-2 */
+  margin-bottom: 0.5rem; /* mb-2 */
+  margin: 6rem; /* m-24 */
+  transition: background-color 0.3s ease;
+
+  /* Focus styles */
+  box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.3); /* focus:ring-4 focus:ring-red-300 */
+}
+
+.custom-button:hover {
+  background-color: #dc2626; /* hover:bg-red-600 */
+}
+
+.custom-button:focus {
+  background-color: #dc2626; /* focus:bg-red-600 */
+}
+
+.custom-button:focus-visible {
+  box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.3); /* focus:ring-4 focus:ring-red-300 */
+}
+
+.custom-button:focus-dark {
+  background-color: #b91c1c; /* dark:bg-red-600 */
+}
+
+.custom-button:hover-dark {
+  background-color: #991b1b; /* dark:hover:bg-red-700 */
+}
